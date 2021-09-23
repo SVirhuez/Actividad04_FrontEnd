@@ -5,11 +5,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddMedicamentoComponent } from './components/add-medicamento/add-medicamento.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddMedicamentoComponent
   ],
   imports: [
     BrowserModule,
